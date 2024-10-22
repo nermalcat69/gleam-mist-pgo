@@ -4,7 +4,7 @@ services:
   - hostname: app
     type: gleam@1.5
     enableSubdomainAccess: true
-    buildFromGit: https://github.com/nermalcat69/gleam-mist-pg
+    buildFromGit: https://github.com/nermalcat69/gleam-mist-pgo
   - hostname: db
     type: postgresql@16
     mode: NON_HA

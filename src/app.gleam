@@ -202,7 +202,7 @@ fn web_service(_request) {
           </div>"
         False -> ""
       } <> "
-      <p>See the <a href='https://github.com/zeropsio/recipe-gleam' target='_blank'> source repository </a> for more information.</p>
+      <p>See the <a href='https://github.com/nermalcat69/gleam-mist-pgo' target='_blank'> source repository </a> for more information.</p>
     </body>
     </html>"
   )
