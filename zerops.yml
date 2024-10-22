@@ -1,0 +1,15 @@
+zerops:
+  - setup: app 
+    build:
+      base: gleam@1.5
+      buildCommands:
+        - gleam build
+      deployFiles: /
+    run:
+      base: gleam@1.5
+      envVariables:
+        DATABASE_URL: ${db_connectionString}/${db_dbName}
+      ports:
+        - port: 3000
+          httpSupport: true
+      start: gleam run
