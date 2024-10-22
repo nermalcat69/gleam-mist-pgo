@@ -154,7 +154,7 @@ fn web_service(_request) {
       </style>
     </head>
     <body>
-      <h1>Gleam Mist Application</h1>
+      <h1>Gleam Mist + PostgresSQL</h1>
       <div class=\"status " <> case string.contains(db_status, "successful") {
         True -> "success"
         False -> "error"
@@ -202,8 +202,6 @@ fn web_service(_request) {
           </div>"
         False -> ""
       } <> "
-
-      <p>This is a simple, basic Gleam mist application running on Zerops.io, each request adds an entry with a UUID to the PostgreSQL database and returns a count.</p>
       <p>See the <a href='https://github.com/zeropsio/recipe-gleam' target='_blank'> source repository </a> for more information.</p>
     </body>
     </html>"

@@ -1,6 +1,12 @@
 # Gleam Postgres Starter with Mist
 
-A basic example of a Mist with postgres(pgo) web server.
+This is a simple, basic Gleam mist application, each request adds an entry with a UUID(using gluid) to the PostgreSQL database and returns a count.
+
+## Something you should know
+
+- Gluid - for generating uuids
+- Glenvy - used for accessing `.env` so that we can connect to db. I didnt use Envoy as it doesnt access my `.env` but access my shell environment so to connect i hade to use `export DATABASE_URL=url` Lol
+- Mist - oh my a misty web server UwU
 
 ## Development
 
@@ -8,3 +14,7 @@ A basic example of a Mist with postgres(pgo) web server.
 gleam build # Builds the project
 gleam run   # Run the project
 ```
+
+## Deploying
+
+you can use `zerops-project-import.yml` from the codebase to import this project to your zerops dashboard.
