@@ -18,3 +18,6 @@ gleam run   # Run the project
 ## Deploying
 
 you can use `zerops-project-import.yml` from the codebase to import this project to your zerops dashboard.
+
+
+This is my first gleam code i wrote while taking some help from their discord server and making silly dumb mistakes DIDNT KNOW WHAT I WAS DOING AT FIRST. Also going through the packages docs on Hex hahaha.
