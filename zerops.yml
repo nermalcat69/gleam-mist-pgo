@@ -1,5 +1,5 @@
 zerops:
-  - setup: app 
+  - setup: pgo
     build:
       base: gleam@1.5
       buildCommands:
