@@ -1,7 +1,7 @@
 project:
-  name: recipe-gleam
+  name: gleam
 services:
-  - hostname: app
+  - hostname: pgo
     type: gleam@1.5
     enableSubdomainAccess: true
     buildFromGit: https://github.com/nermalcat69/gleam-mist-pgo
