@@ -1,4 +1,5 @@
 # Gleam Postgres Starter with Mist
+<img width="1066" alt="image" src="https://github.com/user-attachments/assets/70252cda-cd0c-48a1-8cc2-c52e42c07e2f" />
 
 This is a simple, basic Gleam mist application, each request adds an entry with a UUID(using gluid) to the PostgreSQL database and returns a count.
 
